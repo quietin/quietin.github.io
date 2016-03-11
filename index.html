@@ -1,255 +1,189 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-
 <head>
-  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta charset="utf-8">
+  
   <title>Hexo</title>
-  <meta name="description" content="" />
-  <meta name="HandheldFriendly" content="True" />
-  <meta name="MobileOptimized" content="320" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" type="text/css" href="/css/component.css" />
-  <link rel="stylesheet" type="text/css" href="/css/screen.css" />
-  <meta name="generator" content="Hexo">
-  <script src="http://static.duoshuo.com/embed.js"></script>
+  <meta name="author" content="John Doe">
   
   
-  <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="atom.xml">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
   
+  <meta property="og:site_name" content="Hexo"/>
+
+  
+    <meta property="og:image" content="undefined"/>
   
 
+  <link href="/favicon.png" rel="icon">
+  <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   
 
 </head>
+
+
 <body>
-<div class="container">
-    <div class="mp-pusher" id="mp-pusher">
-        <i id="scroll-up" class="fa fa-angle-up"></i>
-        <nav id="mp-menu" class="mp-menu">
-            <div class="mp-level">
-                <a data-pjax class="back-home" style="font-size: 20px" href="/"><h2 ><i class="fa fa-home"></i>
-                        Home</h2></a>
-                <ul class="first-level">
-                    <li>
-                        <a class="fa fa-archive" href="#"><i class="fa fa-angle-left">
-                            </i>&nbsp;&nbsp;Archive</a>
-                        <div class="mp-level page-list">
-                            <h2 ><i class="fa fa-archive"></i>
-                                Archive</h2>
-                            <a class="mp-back" href="#">back</a>
-                            <form id="search-form" action="">
-                                <input type="text" class="search search-archive" placeholder="Search.."/>
-                            </form>
-                            <ul>
-                                <div class="mp-scroll">
-                                
-                                <li class="search-archive-li mp-pjax">
-                                    <a href="/2016/03/11/hello-world/">Hello World</a>
-                                </li>
-                                
-                                <li class="search-archive-li mp-pjax">
-                                    <a href="/2015/12/17/android开发环境搭建/">Hello World</a>
-                                </li>
-                                
-                                </div>
-                            </ul>
-                        </div>
-                    </li>
-                    <li>
-                        <a class="fa fa-copy" href="#"><i class="fa fa-angle-left">
-                            </i>&nbsp;&nbsp;Categories</a>
-
-                        <div class="mp-level page-list">
-                            <h2 ><i class="fa fa-copy"></i>
-                                Categories</h2>
-                            <a class="mp-back" href="#">back</a>
-                            <form id="search-form" action="">
-                                <input type="text" class="search search-category" placeholder="Search.."/>
-                            </form>
-                            <ul>
-                                <div class="mp-scroll">
-                                
-                                </div>
-                            </ul>
-                        </div>
-                    </li>
-                    <li>
-                        <a class="fa fa-tags" href="#"><i class="fa fa-angle-left">
-                            </i>&nbsp;&nbsp;Tags</a>
-                        <div class="mp-level page-list">
-                            <h2 ><i class="fa fa-tags"></i>
-                                Tags</h2>
-                            <a class="mp-back" href="#">back</a>
-                            <form id="search-form" action="">
-                                <input type="text" class="search search-tag" placeholder="Search.."/>
-                            </form>
-                            <ul>
-                                <div class="mp-scroll">
-                                
-                                </div>
-                            </ul>
-                        </div>
-                    </li>
-                    
-                    <li class="mp-pjax"><a class="fa fa-user" href="/about">&nbsp;&nbsp;&nbsp;About me</a></li>
-                    <li><a class="fa fa-github" href="#">&nbsp;&nbsp;&nbsp;Github</a></li>
-
-                </ul>
-
-            </div>
-        </nav>
-        <div id="pjax">
-            <div class="pjax-hidden" style="display: none">
-                
-                    <a  data-pjax href="/2016/03/11/hello-world/">Hello World</a>
-                
-                    <a  data-pjax href="/2015/12/17/android开发环境搭建/">Hello World</a>
-                
-                
-                
-                <a data-pjax class="fa fa-user" href="/about">&nbsp;&nbsp;&nbsp;About me</a>
-            </div>
-            <nav class="nexus">
-                <li  style="border-left: 1px solid #c6d0da;">
-                    <a id="trigger" href="#"><i class="fa fa-bars"></i></a>
-                </li>
-                <li ><a id="nexus-back" data-pjax href="/">Hexo</a></li>
-                
-                <div id="nav-container">
-                    <div class="post-navbar" style="line-height: 63px;display:none">
-                        <li id="navbar-title"><a href="#">undefined</a></li>
-                        <li id="navbar-toc" style="border-left: none">
-                            <a style="padding-right: 15px">
-                                <span id="toc-content" >Introduction</span><i class="fa fa-chevron-down" ></i>
-                            </a>
-                            <div class="hidden-box">
-                                <ul id="toc"></ul>
-                            </div>
-                        </li>
-                    </div>
-                </div>
-                
-            </nav>
-
-            <div class="scroller">
-            <div class="scroller-inner">
-
-
-<!-- -->
-<!--<body class="home-template">-->
-<!---->
+  <header id="header" class="inner"><div class="alignleft">
+  <h1><a href="/">Hexo</a></h1>
+  <h2><a href="/"></a></h2>
+</div>
+<nav id="main-nav" class="alignright">
+  <ul>
+    
+      <li><a href="/">Home</a></li>
+    
+      <li><a href="/archives">Archives</a></li>
+    
+  </ul>
+  <div class="clearfix"></div>
+</nav>
+<div class="clearfix"></div>
+</header>
+  <div id="content" class="inner">
+    <div id="main-col" class="alignleft"><div id="wrapper">
+  <article class="post">
   
-<main class="content" role="main">
-
-    
-    <article class="post">
-
-        <header class="post-header">
-            <div class="tag-tile">
-                
-                <span class="fa fa-bookmark" style="float:right;color:#f39c12"></span>
-            </div>
-            <h1 class="post-title"><a data-pjax href="/2016/03/11/hello-world/">Hello World</a>
-            </h1>
-
-            <div class="post-meta">
-                Post on<span class="fa fa-clock-o"></span>
-                <time datetime="2016-03-11T04:57:54.000Z"
-                      itemprop="datePublished">2016-03-11</time>
-            </div>
-        </header>
-        <section class="post-excerpt">
-            <p>
-                
-                Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick StartCreate a new p
-                
-            </p>
-            
-        </section>
-    </article>
-    
-    <article class="post">
-
-        <header class="post-header">
-            <div class="tag-tile">
-                
-                <span class="fa fa-bookmark" style="float:right;color:#f39c12"></span>
-            </div>
-            <h1 class="post-title"><a data-pjax href="/2015/12/17/android开发环境搭建/">Hello World</a>
-            </h1>
-
-            <div class="post-meta">
-                Post on<span class="fa fa-clock-o"></span>
-                <time datetime="2015-12-16T16:11:17.000Z"
-                      itemprop="datePublished">2015-12-17</time>
-            </div>
-        </header>
-        <section class="post-excerpt">
-            <p>
-                
-                因为谷歌被墙的问题，安卓环境的搭建还是比较费事的。在不同的时间，不同的地点，被墙的东西也不一样，请以实际为主。这里使用的系统是Ubuntu12.04，内核是3.11.0-26-generic, os x系统也类似。可以参考文章最下面的链接下载相关软件和包。
-Android Studio的下载和配置建议下载最新版，下载完毕后通过android-studio/bin下的./studio.sh运行，运行后会去联网获取sdk的信息，这样很容易一
-                
-            </p>
-            
-        </section>
-    </article>
-    
-    <nav class="pagination" role="pagination">
-        
-        <span class="page-number">Page 1 of 1</span>
-        
-    </nav>
-</main>
-
-
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
+        <time datetime="2016-03-11T04:57:54.000Z"><a href="/2016/03/11/hello-world/">2016-03-11</a></time>
+      
+      
   
-<footer class="site-footer">
-    
-    <a class="subscribe icon-feed" href="atom.xml"><span class="tooltip">Subscribe!</span></a>
-    
-    <div class="inner">
-        <section class="copyright"><a href="/"></a> &copy; Hexo 2014</section>
-        <section class="poweredby">Published with <a target="_blank" href="http://hexo.io/">Hexo   </a> and Theme by <a target="_blank" href="https://github.com/yuche/hexo-theme-kael">Kael</a></section>
+    <h1 class="title"><a href="/2016/03/11/hello-world/">Hello World</a></h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+
+      
     </div>
-</footer>
-</div>
-</div><!-- /scroller -->
+    <footer>
+      
+        
+        
+      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
 
-</div><!-- /pusher -->
-</div><!-- /container -->
-</div>
 
-<!-- Easter eggs -->
 
-<div class="egg animated">
-    <a id="close-button" href="#">X</a>
-    <div class="block">
-        <div class="loading">
-            <span class="ball1"></span>
-            <span class="ball2"></span>
-        </div>
-    </div>
-</div>
+
+  <article class="post">
   
-<script src="//cdn.staticfile.org/jquery/1.11.0/jquery.min.js"></script>
-<script>
-    if (!window.jQuery) {
-        var script = document.createElement('script');
-        script.src = "/js/jquery.min.js";
-        document.body.appendChild(script);
-    }
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
+        <time datetime="2015-12-16T16:11:17.000Z"><a href="/2015/12/17/android开发环境搭建/">2015-12-17</a></time>
+      
+      
+  
+    <h1 class="title"><a href="/2015/12/17/android开发环境搭建/">Hello World</a></h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <p>因为谷歌被墙的问题，安卓环境的搭建还是比较费事的。在不同的时间，不同的地点，被墙的东西也不一样，请以实际为主。<br>这里使用的系统是Ubuntu12.04，内核是3.11.0-26-generic, os x系统也类似。<br>可以参考文章最下面的链接下载相关软件和包。</p>
+<h2 id="Android-Studio的下载和配置"><a href="#Android-Studio的下载和配置" class="headerlink" title="Android Studio的下载和配置"></a>Android Studio的下载和配置</h2><p>建议下载最新版，下载完毕后通过<code>android-studio/bin</code>下的<code>./studio.sh</code>运行，运行后会去联网获取sdk的信息，这样很容易一直卡在下载界面，所以先修改配置让as启动。(os x能以较快的速度下载sdk，建议在启动的地方直接下完)<br>在bin文件夹下的<code>idea.properties</code>文件末尾添加一行</p>
+<blockquote>
+<p>disable.android.first.run=true</p>
+</blockquote>
+<p>然后保存文件，重启as。</p>
+<p>启动后，点击<code>Configure</code> -&gt; <code>Project Defaults</code> -&gt; <code>Project Structure</code>，设置Android SDK和JDK的路径，建议将SDK的路径设为和android studio安装路径平级的路径，因为as直接更新时，安装文件夹下有别的正在使用的文件夹会导致更新失败。</p>
+<p>安装过程中如果提示“unable to run mksdcard sdk tool”，使用以下命令安装依赖：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo apt-get install lib32z1 lib32ncurses5 lib32bz2-1.0 lib32stdc++6</span><br></pre></td></tr></table></figure>
+<p>点击<code>File</code>菜单下的<code>settings</code>，搜索<code>auto import</code>项，并将其全部勾选，这样就能自动import，并按字母顺序进行排列，非常方便。</p>
+<h2 id="相关包和工具的安装"><a href="#相关包和工具的安装" class="headerlink" title="相关包和工具的安装"></a>相关包和工具的安装</h2><p>包括android sdk, sdk-tools, platform-tools和build-tools</p>
+<ul>
+<li>sdk解压后放到<code>your sdk 路径/platforms</code></li>
+<li>sdk-tools解压后放到<code>your sdk 路径/tools</code>，包括ddms, draw9patch等工具</li>
+<li>platform-tools解压后放到<code>your sdk 路径/platform-tools</code>，包括adb, fastboot等工具包</li>
+<li>build-tools解压后放到<code>your sdk 路径/build-tools</code>, 这是开发要用的构建工具</li>
+</ul>
+<p>确实是有些麻烦，如果你有VPN话建议挂VPN通过android sdk manager下载<br>如果不是用真机作开发和测试，那就下载intel的atom image＋HAXM或者使用genymotion，否则运行速度会慢得令人难以忍受。Intel的那些安卓加速工具见我之前的<a href="http://segmentfault.com/a/1190000002709838" target="_blank" rel="external">博客文章</a>，如果用genymotion的话，看下一章，推荐使用genymotion或者真机</p>
+<h2 id="使用genymotion"><a href="#使用genymotion" class="headerlink" title="使用genymotion"></a>使用genymotion</h2><p>去genymotion官网先注册后下载linux版本，其需要配合virtualbox才能使用，否则无法初始化或启动。<br>到<a href="https://www.virtualbox.org/wiki/Downloads" target="_blank" rel="external">官网</a>下载最新的virtualbox-5.0，不要用添加源的apt方式下载安装，我试了根本找不到源。直接下载deb包并安装<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ dpkg -i virtualbox-5.0.deb</span><br></pre></td></tr></table></figure></p>
+<p>然后<code>./genymotion.bin</code>安装genymotion，如果不成功就<code>sudo chmod +x genymotion</code>，再试应该就没问题。</p>
+<p>在android studio中使用genymotion需要一个同名插件，点击<code>File</code>-&gt;<code>Settings</code>，找到<code>plugins</code>，搜索genymotion并安装，插件不到1M，很快能下好，重启as后会发现工具栏最右有一个红色手机样的genymotion图标<br><img src="/img/bVm2zS" alt="图片描述"></p>
+<p>点击图标新建一个虚拟设备，需要登录，也就是之前官网下载genymotion的bin包时注册的帐号密码。登录时偶尔会出现<code>unknown generic error</code>，不一会儿好了，可能是网络问题。</p>
+<p>使用genymotion调试应用时，需要先将genymotion中的设备运行起来，当前app构建完后会询问你使用哪个设备，选择其中的一个设备即可。<br><img src="/img/bVm2zZ" alt="图片描述"></p>
+<h2 id="参考和镜像"><a href="#参考和镜像" class="headerlink" title="参考和镜像"></a>参考和镜像</h2><ul>
+<li><a href="https://github.com/inferjay/AndroidDevTools" target="_blank" rel="external">AndroidDevTools</a>，收集了很多安卓开发资源</li>
+<li><a href="http://pan.baidu.com/s/1ntme29r#path=%252F" target="_blank" rel="external">Android SDK Offline</a>，度娘盘离线资源</li>
+</ul>
+
+      
+    </div>
+    <footer>
+      
+        
+        
+      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+
+
+
+<nav id="pagination">
+  
+  
+  <div class="clearfix"></div>
+</nav></div></div>
+    <aside id="sidebar" class="alignright">
+  <div class="search">
+  <form action="//google.com/search" method="get" accept-charset="utf-8">
+    <input type="search" name="q" results="0" placeholder="Search">
+    <input type="hidden" name="q" value="site:yoursite.com">
+  </form>
+</div>
+
+  
+
+  
+</aside>
+    <div class="clearfix"></div>
+  </div>
+  <footer id="footer" class="inner"><div class="alignleft">
+  
+  &copy; 2016 John Doe
+  
+</div>
+<div class="clearfix"></div></footer>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
 </script>
-<script type="text/javascript" src="/js/lib.js"></script>
-<script type="text/javascript" src="/js/main.js"></script>
-
-
-
-
-
-
 
 </body>
 </html>
