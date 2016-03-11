@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-03-11T02:51:42.000Z</updated>
+  <updated>2016-03-11T04:57:54.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -19,8 +19,8 @@
     <title>Hello World</title>
     <link href="http://yoursite.com/2016/03/11/hello-world/"/>
     <id>http://yoursite.com/2016/03/11/hello-world/</id>
-    <published>2016-03-11T02:50:56.000Z</published>
-    <updated>2016-03-11T02:51:42.000Z</updated>
+    <published>2016-03-11T04:57:54.000Z</published>
+    <updated>2016-03-11T04:57:54.000Z</updated>
     
     <content type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -36,6 +36,53 @@
     <summary type="html">
     
       &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2015/12/17/android%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+    <id>http://yoursite.com/2015/12/17/android开发环境搭建/</id>
+    <published>2015-12-16T16:11:17.000Z</published>
+    <updated>2016-03-11T05:00:13.000Z</updated>
+    
+    <content type="html">&lt;hr&gt;
+&lt;p&gt;title: Hello World&lt;br&gt;——&lt;br&gt;因为谷歌被墙的问题，安卓环境的搭建还是比较费事的。在不同的时间，不同的地点，被墙的东西也不一样，请以实际为主。&lt;br&gt;这里使用的系统是Ubuntu12.04，内核是3.11.0-26-generic, os x系统也类似。&lt;br&gt;可以参考文章最下面的链接下载相关软件和包。&lt;/p&gt;
+&lt;h2 id=&quot;Android-Studio的下载和配置&quot;&gt;&lt;a href=&quot;#Android-Studio的下载和配置&quot; class=&quot;headerlink&quot; title=&quot;Android Studio的下载和配置&quot;&gt;&lt;/a&gt;Android Studio的下载和配置&lt;/h2&gt;&lt;p&gt;建议下载最新版，下载完毕后通过&lt;code&gt;android-studio/bin&lt;/code&gt;下的&lt;code&gt;./studio.sh&lt;/code&gt;运行，运行后会去联网获取sdk的信息，这样很容易一直卡在下载界面，所以先修改配置让as启动。(os x能以较快的速度下载sdk，建议在启动的地方直接下完)&lt;br&gt;在bin文件夹下的&lt;code&gt;idea.properties&lt;/code&gt;文件末尾添加一行&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;disable.android.first.run=true&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;然后保存文件，重启as。&lt;/p&gt;
+&lt;p&gt;启动后，点击&lt;code&gt;Configure&lt;/code&gt; -&amp;gt; &lt;code&gt;Project Defaults&lt;/code&gt; -&amp;gt; &lt;code&gt;Project Structure&lt;/code&gt;，设置Android SDK和JDK的路径，建议将SDK的路径设为和android studio安装路径平级的路径，因为as直接更新时，安装文件夹下有别的正在使用的文件夹会导致更新失败。&lt;/p&gt;
+&lt;p&gt;安装过程中如果提示“unable to run mksdcard sdk tool”，使用以下命令安装依赖：&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ sudo apt-get install lib32z1 lib32ncurses5 lib32bz2-1.0 lib32stdc++6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;点击&lt;code&gt;File&lt;/code&gt;菜单下的&lt;code&gt;settings&lt;/code&gt;，搜索&lt;code&gt;auto import&lt;/code&gt;项，并将其全部勾选，这样就能自动import，并按字母顺序进行排列，非常方便。&lt;/p&gt;
+&lt;h2 id=&quot;相关包和工具的安装&quot;&gt;&lt;a href=&quot;#相关包和工具的安装&quot; class=&quot;headerlink&quot; title=&quot;相关包和工具的安装&quot;&gt;&lt;/a&gt;相关包和工具的安装&lt;/h2&gt;&lt;p&gt;包括android sdk, sdk-tools, platform-tools和build-tools&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;sdk解压后放到&lt;code&gt;your sdk 路径/platforms&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;sdk-tools解压后放到&lt;code&gt;your sdk 路径/tools&lt;/code&gt;，包括ddms, draw9patch等工具&lt;/li&gt;
+&lt;li&gt;platform-tools解压后放到&lt;code&gt;your sdk 路径/platform-tools&lt;/code&gt;，包括adb, fastboot等工具包&lt;/li&gt;
+&lt;li&gt;build-tools解压后放到&lt;code&gt;your sdk 路径/build-tools&lt;/code&gt;, 这是开发要用的构建工具&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;确实是有些麻烦，如果你有VPN话建议挂VPN通过android sdk manager下载&lt;br&gt;如果不是用真机作开发和测试，那就下载intel的atom image＋HAXM或者使用genymotion，否则运行速度会慢得令人难以忍受。Intel的那些安卓加速工具见我之前的&lt;a href=&quot;http://segmentfault.com/a/1190000002709838&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;博客文章&lt;/a&gt;，如果用genymotion的话，看下一章，推荐使用genymotion或者真机&lt;/p&gt;
+&lt;h2 id=&quot;使用genymotion&quot;&gt;&lt;a href=&quot;#使用genymotion&quot; class=&quot;headerlink&quot; title=&quot;使用genymotion&quot;&gt;&lt;/a&gt;使用genymotion&lt;/h2&gt;&lt;p&gt;去genymotion官网先注册后下载linux版本，其需要配合virtualbox才能使用，否则无法初始化或启动。&lt;br&gt;到&lt;a href=&quot;https://www.virtualbox.org/wiki/Downloads&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;官网&lt;/a&gt;下载最新的virtualbox-5.0，不要用添加源的apt方式下载安装，我试了根本找不到源。直接下载deb包并安装&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ dpkg -i virtualbox-5.0.deb&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;然后&lt;code&gt;./genymotion.bin&lt;/code&gt;安装genymotion，如果不成功就&lt;code&gt;sudo chmod +x genymotion&lt;/code&gt;，再试应该就没问题。&lt;/p&gt;
+&lt;p&gt;在android studio中使用genymotion需要一个同名插件，点击&lt;code&gt;File&lt;/code&gt;-&amp;gt;&lt;code&gt;Settings&lt;/code&gt;，找到&lt;code&gt;plugins&lt;/code&gt;，搜索genymotion并安装，插件不到1M，很快能下好，重启as后会发现工具栏最右有一个红色手机样的genymotion图标&lt;br&gt;&lt;img src=&quot;/img/bVm2zS&quot; alt=&quot;图片描述&quot;&gt;&lt;/p&gt;
+&lt;p&gt;点击图标新建一个虚拟设备，需要登录，也就是之前官网下载genymotion的bin包时注册的帐号密码。登录时偶尔会出现&lt;code&gt;unknown generic error&lt;/code&gt;，不一会儿好了，可能是网络问题。&lt;/p&gt;
+&lt;p&gt;使用genymotion调试应用时，需要先将genymotion中的设备运行起来，当前app构建完后会询问你使用哪个设备，选择其中的一个设备即可。&lt;br&gt;&lt;img src=&quot;/img/bVm2zZ&quot; alt=&quot;图片描述&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;参考和镜像&quot;&gt;&lt;a href=&quot;#参考和镜像&quot; class=&quot;headerlink&quot; title=&quot;参考和镜像&quot;&gt;&lt;/a&gt;参考和镜像&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/inferjay/AndroidDevTools&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;AndroidDevTools&lt;/a&gt;，收集了很多安卓开发资源&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://pan.baidu.com/s/1ntme29r#path=%252F&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Android SDK Offline&lt;/a&gt;，度娘盘离线资源&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;p&gt;title: Hello World&lt;br&gt;——&lt;br&gt;因为谷歌被墙的问题，安卓环境的搭建还是比较费事的。在不同的时间，不同的地点，被墙的东西也不一样，请以实际为主。&lt;br&gt;这里使用的系统是Ubuntu12.04，内核是3.11.0-26-generic, os 
     
     </summary>
     
