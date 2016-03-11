@@ -43,14 +43,13 @@
   </entry>
   
   <entry>
-    <title></title>
+    <title>Hello World</title>
     <link href="http://yoursite.com/2015/12/17/android%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
     <id>http://yoursite.com/2015/12/17/android开发环境搭建/</id>
     <published>2015-12-16T16:11:17.000Z</published>
-    <updated>2016-03-11T05:00:13.000Z</updated>
+    <updated>2016-03-11T05:25:28.000Z</updated>
     
-    <content type="html">&lt;hr&gt;
-&lt;p&gt;title: Hello World&lt;br&gt;——&lt;br&gt;因为谷歌被墙的问题，安卓环境的搭建还是比较费事的。在不同的时间，不同的地点，被墙的东西也不一样，请以实际为主。&lt;br&gt;这里使用的系统是Ubuntu12.04，内核是3.11.0-26-generic, os x系统也类似。&lt;br&gt;可以参考文章最下面的链接下载相关软件和包。&lt;/p&gt;
+    <content type="html">&lt;p&gt;因为谷歌被墙的问题，安卓环境的搭建还是比较费事的。在不同的时间，不同的地点，被墙的东西也不一样，请以实际为主。&lt;br&gt;这里使用的系统是Ubuntu12.04，内核是3.11.0-26-generic, os x系统也类似。&lt;br&gt;可以参考文章最下面的链接下载相关软件和包。&lt;/p&gt;
 &lt;h2 id=&quot;Android-Studio的下载和配置&quot;&gt;&lt;a href=&quot;#Android-Studio的下载和配置&quot; class=&quot;headerlink&quot; title=&quot;Android Studio的下载和配置&quot;&gt;&lt;/a&gt;Android Studio的下载和配置&lt;/h2&gt;&lt;p&gt;建议下载最新版，下载完毕后通过&lt;code&gt;android-studio/bin&lt;/code&gt;下的&lt;code&gt;./studio.sh&lt;/code&gt;运行，运行后会去联网获取sdk的信息，这样很容易一直卡在下载界面，所以先修改配置让as启动。(os x能以较快的速度下载sdk，建议在启动的地方直接下完)&lt;br&gt;在bin文件夹下的&lt;code&gt;idea.properties&lt;/code&gt;文件末尾添加一行&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;disable.android.first.run=true&lt;/p&gt;
@@ -81,8 +80,7 @@
     
     <summary type="html">
     
-      &lt;hr&gt;
-&lt;p&gt;title: Hello World&lt;br&gt;——&lt;br&gt;因为谷歌被墙的问题，安卓环境的搭建还是比较费事的。在不同的时间，不同的地点，被墙的东西也不一样，请以实际为主。&lt;br&gt;这里使用的系统是Ubuntu12.04，内核是3.11.0-26-generic, os 
+      &lt;p&gt;因为谷歌被墙的问题，安卓环境的搭建还是比较费事的。在不同的时间，不同的地点，被墙的东西也不一样，请以实际为主。&lt;br&gt;这里使用的系统是Ubuntu12.04，内核是3.11.0-26-generic, os x系统也类似。&lt;br&gt;可以参考文章最下面的链接下载相关软件和包。&lt;
     
     </summary>
     
